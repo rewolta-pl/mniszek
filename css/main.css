@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
 body {
 	overflow: auto;
 }
@@ -8,4 +16,50 @@ body {
 	justify-content: center;
 	align-items: center;
 	font-size: 30px;
+}
+
+.sj-book .page-title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 30px;
+	height: 100%;
+	margin: 0 !important;
+}
+
+.sj-book .page-footer {
+	font-size: 16px;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.sj-book .book-content {
+	margin: 20px 40px;
+	width: 100%;
+	height: 100%;
+}
+
+.sj-book .book-content p {
+	text-indent: 0;
+	margin: 20px 0;
+	line-height: 22px;
+	white-space: pre-wrap;
+}
+
+/* reset style */
+.sj-book .p2 {
+	background-position: 0 !important;
+}
+
+.sj-book .p3 {
+	background-position: 0 !important;
+}
+
+.sj-book .p111 {
+	background-position: 0 !important;
+}
+
+.sj-book .p112 {
+	background-position: 0 !important;
 }
